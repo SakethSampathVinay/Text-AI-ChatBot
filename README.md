@@ -20,7 +20,7 @@ In the OPENAI_API_KEY, paste the OpenAI key.
 Follow these steps to set up the project on your local machine:
 
 ### 1. Clone the Repository
-
+```bash
 git clone https://github.com/SakethSampathVinay/Text-AI-ChatBot.git
 
 ## Navigate to the Project Directory
