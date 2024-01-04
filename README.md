@@ -23,15 +23,3 @@ Follow these steps to set up the project on your local machine:
 ```bash
 git clone https://github.com/SakethSampathVinay/Text-AI-ChatBot.git
 
-## Navigate to the Project Directory
-
-cd Text-AI-ChatBot
-
-## Install Dependencies
-
-pip install -r requirements.txt
-
-## Run the ChatBot
-
-python chatbot.py
-
