@@ -1,6 +1,6 @@
 //Getting Social Icons
 const socialIconButtons = document.getElementsByClassName("social-icon");
-//Social Accounts link 
+//Social Accounts link function
 function postToSocialMedia(classList) {
     const content = `Check out my cool generative AI Project 😎 \n${window.location.href.toString()}`;
     if (classList.contains("twitter")) {
