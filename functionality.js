@@ -1,5 +1,6 @@
+//Getting Social Icons
 const socialIconButtons = document.getElementsByClassName("social-icon");
-
+//Social Accounts link 
 function postToSocialMedia(classList) {
     const content = `Check out my cool generative AI Project 😎 \n${window.location.href.toString()}`;
     if (classList.contains("twitter")) {
@@ -16,7 +17,7 @@ function postToSocialMedia(classList) {
         window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(content)}`);
     }
 }
-
+//Event Listener Functions  for the social Buttons 
 const addEventListenersToSocialIconButton = () => {
     for (let i = 0; i < socialIconButtons.length; i++) {
         socialIconButtons[i].addEventListener("click", () =>
@@ -40,7 +41,7 @@ const addEventListenersToSkillIcon = () => {
 };
 
 addEventListenersToSkillIcon();
-
+//List of the online Dependecies Used
 const descriptionDiv = document.getElementsByClassName("about-section");
 const updateDescription = (id) => {
     let description = "";
@@ -71,5 +72,5 @@ const updateDescription = (id) => {
         descriptionDiv[i].textContent = description;
     }
 };
-
+//Calling for the Google Colab online dependencies
 updateDescription("googleColab");
